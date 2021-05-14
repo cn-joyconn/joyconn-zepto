@@ -1,8 +1,7 @@
 //     Zepto.js
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-
-;(function($){
+export function zepto_selector($){
   var zepto = $.zepto, oldQsa = zepto.qsa, oldMatches = zepto.matches
 
   function visible(elem){
@@ -82,4 +81,4 @@
         (!filter || filter.call(node, null, arg) === node)
     })
   }
-})(Zepto)
+}

@@ -2,7 +2,7 @@
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
 
-;(function(){
+export function zepto_ie(){
   // getComputedStyle shouldn't freak out when called
   // without a valid element as argument
   try {
@@ -17,4 +17,4 @@
       }
     }
   }
-})()
+}

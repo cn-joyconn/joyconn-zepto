@@ -3,8 +3,8 @@
 //     Zepto.js may be freely distributed under the MIT license.
 //
 //     Some code (c) 2005, 2013 jQuery Foundation, Inc. and other contributors
-
-;(function($){
+import Zepto from "zepto.js"
+export function zepto_deferred($){
   var slice = Array.prototype.slice
 
   function Deferred(func) {
@@ -115,4 +115,4 @@
   }
 
   $.Deferred = Deferred
-})(Zepto)
+}

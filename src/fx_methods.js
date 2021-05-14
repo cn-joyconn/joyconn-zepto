@@ -2,7 +2,7 @@
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
 
-;(function($, undefined){
+export function zepto_fx_methods($, undefined){
   var document = window.document,
     origShow = $.fn.show, origHide = $.fn.hide, origToggle = $.fn.toggle
 
@@ -68,4 +68,4 @@
     })
   }
 
-})(Zepto)
+}

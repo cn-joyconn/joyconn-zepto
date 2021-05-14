@@ -1,8 +1,7 @@
 //     Zepto.js
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-
-;(function($){
+export function zepto_stack($){
   $.fn.end = function(){
     return this.prevObject || $()
   }
@@ -19,4 +18,4 @@
       return ret
     }
   })
-})(Zepto)
+}

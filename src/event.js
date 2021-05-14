@@ -1,8 +1,7 @@
 //     Zepto.js
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-
-;(function($){
+export function zepto_event($){
   var _zid = 1, undefined,
       slice = Array.prototype.slice,
       isFunction = $.isFunction,
@@ -274,4 +273,4 @@
     return compatible(event)
   }
 
-})(Zepto)
+}

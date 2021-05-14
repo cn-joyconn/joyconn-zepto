@@ -2,7 +2,7 @@
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
 
-;(function($){
+export function zepto_assets($){
   var cache = [], timeout
 
   $.fn.remove = function(){
@@ -18,4 +18,4 @@
       }
     })
   }
-})(Zepto)
+}

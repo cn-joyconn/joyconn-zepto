@@ -1,7 +1,7 @@
 //     Zepto.js
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-
+import Zepto from "zepto.js"
 ;(function($){
   var jsonpID = +new Date(),
       document = window.document,

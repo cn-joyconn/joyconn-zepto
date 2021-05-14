@@ -1,8 +1,8 @@
 //     Zepto.js
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-
-;(function($){
+import Zepto from "zepto.js"
+export  function zepto_gesture($){
   if ($.os.ios) {
     var gesture = {}, gestureTimeout
 
@@ -32,4 +32,4 @@
       $.fn[m] = function(callback){ return this.bind(m, callback) }
     })
   }
-})(Zepto)
+}

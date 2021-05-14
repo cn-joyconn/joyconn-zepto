@@ -3,8 +3,7 @@
 //     Zepto.js may be freely distributed under the MIT license.
 
 // The following code is heavily inspired by jQuery's $.fn.data()
-
-;(function($){
+export function zepto_data($){
   var data = {}, dataAttr = $.fn.data, camelize = $.camelCase,
     exp = $.expando = 'Zepto' + (+new Date()), emptyArray = []
 
@@ -86,4 +85,4 @@
       return origFn.call(this)
     }
   })
-})(Zepto)
+}
