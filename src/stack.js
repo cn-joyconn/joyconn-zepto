@@ -1,7 +1,7 @@
 //     Zepto.js
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-export function zepto_stack($){
+export default function zepto_stack($){
   $.fn.end = function(){
     return this.prevObject || $()
   }

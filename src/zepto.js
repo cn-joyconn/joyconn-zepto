@@ -946,6 +946,6 @@ var Zepto = (function() {
 })()
 
 // If `$` is not yet defined, point it to `Zepto`
-window.Zepto = Zepto
-window.$ === undefined && (window.$ = Zepto)
-export {Zepto}
+// window.Zepto = Zepto
+// window.$ === undefined && (window.$ = Zepto)
+export default Zepto

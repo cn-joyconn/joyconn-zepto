@@ -1,13 +1,5 @@
 .DS_Store
-dist/
-dist/zepto.min.js
-dist/zepto.js
-pkg
+dist
 *.swp
-docs/*
-.jhw-cache
-.rbenv-version
 public
 node_modules
-temp/
-npm-debug.log

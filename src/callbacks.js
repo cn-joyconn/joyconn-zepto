@@ -1,7 +1,7 @@
 //     Zepto.js
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-export function zepto_callback($){
+export default function zepto_callback($){
   // Create a collection of callbacks to be fired in a sequence, with configurable behaviour
   // Option flags:
   //   - once: Callbacks fired at most one time.

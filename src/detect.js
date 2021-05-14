@@ -1,7 +1,7 @@
 //     Zepto.js
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-export function zepto_detect($){
+export default function zepto_detect($){
   function detect(ua, platform){
     var os = this.os = {}, browser = this.browser = {},
       webkit = ua.match(/Web[kK]it[\/]{0,1}([\d.]+)/),

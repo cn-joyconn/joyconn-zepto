@@ -1,7 +1,7 @@
 //     Zepto.js
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-export function zepto_touch($){
+export default function zepto_touch($){
   var touch = {},
     touchTimeout, tapTimeout, swipeTimeout, longTapTimeout,
     longTapDelay = 750,

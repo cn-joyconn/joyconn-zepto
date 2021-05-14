@@ -2,7 +2,7 @@
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
 
-export  function zepto_fx($, undefined){
+export default function zepto_fx($, undefined){
   var prefix = '', eventPrefix,
     vendors = { Webkit: 'webkit', Moz: '', O: 'o' },
     testEl = document.createElement('div'),

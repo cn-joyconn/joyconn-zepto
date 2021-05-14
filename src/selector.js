@@ -1,7 +1,7 @@
 //     Zepto.js
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-export function zepto_selector($){
+export default function zepto_selector($){
   var zepto = $.zepto, oldQsa = zepto.qsa, oldMatches = zepto.matches
 
   function visible(elem){

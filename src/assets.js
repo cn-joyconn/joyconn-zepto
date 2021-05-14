@@ -2,7 +2,7 @@
 //     (c) 2010-2016 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
 
-export function zepto_assets($){
+export default function zepto_assets($){
   var cache = [], timeout
 
   $.fn.remove = function(){
